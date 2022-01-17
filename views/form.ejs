@@ -4,13 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Contact</title>
 </head>
 <body>
-    <h1>Dejame tu contacto y creemos algo fascinante!</h1>
+    <h1>Leave me your contact and let's create something fascinating!</h1>
     <form action="/contact/process" method="post">
+     <label for="name">What is your first and surname?</label>
+    <input type="text" name="name"  placeholder="Tom Hanks"> 
+    
+    <label for="company">Which company do you belong to?</label>
+    <input type="text" name="company"  placeholder="company.srl">
+
     <label for="email">E-mail</label>
-    <input type="email" name="email"  placeholder="un@email.com">
+    <input type="email" name="email"  placeholder="your@email.com">
+
+    <label for="subject">What is your proposal?</label>
+    <input type="text" name="subject"  placeholder="subject">
+
+    <label for="message">If you want, you can leave me a message describing the project.</label>
+    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
     <button type="submit">
         Enviar
     </button>

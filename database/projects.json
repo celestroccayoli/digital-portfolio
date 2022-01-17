@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+  "title": "Subli Chrismas",
+  "sub-title": "First steps in CSS",
+  "company": "Digital House",
+  "description": "It has been my first contact with web layout with an E-Commers replica.",
+  "img": "subli-chrismas.png",
+  "link-github": "https://github.com/celestroccayoli/subli-chrismas"
+    },
+    {
+        "id": 2,
+  "title": "VIP.DRINKS",
+  "sub-title": "Integrator Project",
+  "company": "Digital House",
+  "description": "A challenge that tested all the skills required in the technology industry: agility, speed, adaptability and much more.",
+  "img": "vip-drinks.png",
+  "link-github": "https://github.com/celestroccayoli/vip-drinks"
+    },
+    {
+        "id": 3,
+  "title": "Mercado Liebre",
+  "sub-title": "Depploy on Heroku",
+  "company": "Digital House",
+  "description": "On this occasion, we used the Heroku platform to build a website on the Internet. We implemented feedback through comments among peers and teachers about our delivery. By the way, I had very good reviews ;).",
+  "img": "mercado-liebre.png",
+  "link-github": "https://github.com/celestroccayoli/mercado-liebre"
+    },
+    {
+        "id": 4,
+  "title": "JavaScript",
+  "sub-title": "Always coding",
+  "company": "Digital House",
+  "description": "A look at the lines of code, contributions and the many tools exploited in the course of these projects.",
+  "img": "mercado-liebre.png",
+  "link-github": "https://github.com/celestroccayoli/"
+    }
+]

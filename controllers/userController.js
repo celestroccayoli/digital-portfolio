@@ -18,7 +18,11 @@ const userController = {
     process: (req, res) => {
         let user = {
          id: by_contacting.length + 1 ,
-         email: req.body.email
+         email: req.body.email,
+         name: req.body.name,
+         company: req.body.company,
+         subject: req.body.subject,
+         message: req.body.message,
         }
         by_contacting.push(user);
 

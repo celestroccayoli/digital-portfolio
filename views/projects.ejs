@@ -8,5 +8,13 @@
 </head>
 <body>
     <h1>Bienvenido a mis proyectos!</h1>
+
+    <% projects.forEach(project => { %>
+     <section>
+         <div>
+             <img src="/images/<%= project.img %> " alt="">
+         </div>
+     </section>
+    <% }) %>
 </body>
 </html>
