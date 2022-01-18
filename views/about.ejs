@@ -1,65 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/about.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
 </head>
+
 <body>
     <%- include('./partials/header') %>
-<main>    
-    <h1>ABOUT ME</h1>
-<section class="part">
-    <div>
-        <img src="" alt="">
-    </div>
-    <div>
-        <h3>
-            My name is Celeste Troccayoli
-        </h3>
-        <p>
-            I like trees, literature and neurosciences.
-I program on computers because I like to create and feel somehow "Homo-Deus". 
-Every day I wake up with the goal of improving and being MUCH better than the day before. I don't like to waste time and I get bored fast. 
-Within the agile system I feel "in my element". Every sprint means a new adventure that I am always happy to undertake. I am a dreamer and a doer, because dreaming is easy, but the hard part is achieving it.   
-It's always a good opportunity to improve and that's why, if you have an idea or suggestion, drop me a message without hesitation. Thank you very much for reading me.
+        <main>
+            <h1>ABOUT ME</h1>
+            <section class="part">
+                <div>
+                    <img src="" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Hi! I'm Celeste Troccayoli
+                    </h3>
+                    <p>
+                        I like trees, literature and neurosciences.
+                        I program on computers because I like to create and feel somehow "Homo-Deus".
+                        Every day I wake up with the goal of improving and being MUCH better than the day before. I
+                        don't like to waste time and I get bored fast.
+                        Within the agile system I feel "in my element". Every sprint means a new adventure that I am
+                        always happy to undertake. I am a dreamer and a doer, because dreaming is easy, but the hard
+                        part is achieving it.
+                        It's always a good opportunity to improve and that's why, if you have an idea or suggestion,
+                        drop me a message without hesitation. Thank you very much for reading me.
+                    </p>
+                    <h4>
+                        May your day be GREAT!
+                    </h4>
+                </div>
+            </section>
+            <section class="part" id="brain">
+          
+                <div>
+                </div>
+            </section>
+            <h3>My Hobbies</h3>
+            <section class="part" id="hobbies">
+                <div class="list">
 
-Translated with www.DeepL.com/Translator (free version)
-        </p>
-        <h4>
-            May your day be GREAT!  
-        </h4>
-    </div>
-</section>
-<section class="part" id="brain">
-    //Acá iría el cerebro en 3D
-<div>
-</div>
-</section>
-<section class="part" id="hobbies">
-<div>
-    <ul>
-        <li><a href=""><img src="" alt="">Literature</a></li>
-        <li><a href=""><img src="" alt="">Family</a></li>
-        <li><a href=""><img src="" alt="">Neuroscience</a></li>
-        <li><a href=""><img src="" alt="">Nature</a></li>
-    </ul>
-</div>
-</section>
-<section class="part" id="ideals">
-    <div>
-        <ul>
-            <li><a href=""><img src="" alt="">Education</a></li>
-            <li><a href=""><img src="" alt="">Integration</a></li>
-            <li><a href=""><img src="" alt="">Charity</a></li>
-            <li><a href=""><img src="" alt="">Sustainability</a></li>
-        </ul>
-    </div>
-    </section>
-</main>
-    <%- include('./partials/footer') %>
+                        <div class="boxe">
+                            <img src="/images/literature.png" alt="">
+                            <div class="link"><a href="">
+                                    Literature
+                                </a></div>
+                        </div>
+
+                        <div class="boxe">
+                           <img src="/images/family.png" alt="">
+                           <div class="link"><a href="">
+                                    Family
+                                </a></div>
+                        </div>
+
+                        <div class="boxe">
+                            <img src="/images/neuroscience.png" alt="">
+                            <div class="link"><a href="">
+                                    Neuroscience
+                                </a></div>
+                        </div>
+
+                        <div class="boxe">
+                          <img src="/images/nature.png" alt="">
+                          <div class="link"><a href="">
+                                    Nature
+                                </a></div>
+                        </div>
+                </div>
+            </section>
+
+            <h3>My ideals</h3>
+            <section class="part" id="ideals">
+                <div class="list">
+
+                        <div class="boxe">
+                          <img src="/images/education.png" alt="">
+                          <div class="link"><a href="">
+                                    Education
+                                </a></div>
+                        </div>
+
+                        <div class="boxe">
+                            <img src="/images/integration.png" alt="">
+                             <div class="link"><a href="">
+                                Integration
+                            </a></div>
+                        </div>
+
+                        <div class="boxe">
+                            <img src="/images/sustainability.png" alt="">
+                            <div class="link"><a href="">
+                                Ecology
+                                </a></div>
+                        </div>
+
+                        <div class="boxe">
+                            <img src="/images/charity.png" alt="">
+                            
+                           <div class="link"><a href="">
+                                    Charity
+                                </a></div>
+                        </div>
+                </div>
+            </section>
+        </main>
+        <%- include('./partials/footer') %>
 </body>
+
 </html>

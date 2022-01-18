@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/blog.css">
-    <title>Blog</title>
-</head>
-<body>
-<script>
 let renderer,
     scene,
     camera,
@@ -18,7 +7,7 @@ let renderer,
     controls,
     container = document.getElementById("canvas_container"),
     timeout_Debounce,
-    noise = new SimplexNoise();
+    noise = new SimplexNoise(),
     cameraSpeed = 0,
     blobScale = 3;
     
@@ -206,11 +195,3 @@ let renderer,
         renderer.setSize(container.clientWidth, container.clientHeight);
     }
     
-    </script>
-
-    <div id="canvas_container"></div>
-
-<!-- <button id="fullscr">Go Fullscreen</button> -->
-
-</body>
-</html>
