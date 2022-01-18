@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+  "title": "Block-Chain",
+  "sub-title": "The technology that revolutionized the financial market forever.",
+  "author": "Celeste A. Troccayoli",
+  "description": "This revolutionary and globally resonant technology brings with it a new way of structuring our organizations and our lives.",
+  "img": "code.png"
+    },
+    {
+        "id": 2,
+  "title": "Emotional Intelligence",
+  "sub-title": "How do emotional impulses that lead us to action influence our lives",
+  "author": "Celeste A. Troccayoli",
+  "description": "Scientific advances in Neuroscience increasingly highlight the importance of knowing how to manage our emotions and what they mean in our lives. Are we rational beings who feel, or rather are we emotional beings with the capacity to think?",
+  "img": "code.png"
+    },
+    {
+        "id": 3,
+  "title": "Artificial Intelligence",
+  "sub-title": "Beyond the myth, research.",
+  "author": "Celeste A. Troccayoli",
+  "description": "Undoubtedly, we are facing the last great revolution of humanity and technology. Learning its concepts and the wonders that its implementation provides us inside and outside the laboratory, will give us very powerful tools to face our mission in the world.",
+  "img": "code.png"
+    },
+    {
+        "id": 4,
+  "title": "Data Science",
+  "sub-title": "The importance of data in scientific and business performance.",
+  "author": "Celeste A. Troccayoli",
+  "description": "According to business leaders and scientists, the difference between success and failure in the information age is marked by the power of harnessing, measuring and reading the data being collected. Those who use it to their advantage will be able to strategize in anticipation of problems that may never exist.",
+  "img": "code.png"
+    }
+]

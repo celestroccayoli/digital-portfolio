@@ -7,7 +7,7 @@ const session = require("express-session");
 const cookies = require('cookie-parser');
 
 const projects = require('./routes/projects');
-const blog = require('./routes/blog');
+const about = require('./routes/about');
 const index = require('./routes/index');
 const contact = require('./routes/contact');
 
@@ -27,7 +27,7 @@ app.use(cookies());
 
 /* RUTEADORES */
 app.use('/projects', projects);
-app.use('/blog', blog);
+app.use('/about', about);
 app.use('/', index);
 app.use('/contact', contact);
 app.use((req, res, next) => {

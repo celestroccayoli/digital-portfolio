@@ -7,7 +7,10 @@
     <title>Contact</title>
 </head>
 <body>
+    <%- include('./partials/header') %>
+ 
     <h1>Leave me your contact and let's create something fascinating!</h1>
+   
     <form action="/contact/process" method="post">
      <label for="name">What is your first and surname?</label>
     <input type="text" name="name"  placeholder="Tom Hanks"> 
@@ -27,6 +30,9 @@
     <button type="submit">
         Enviar
     </button>
+
+   
+    <%- include('./partials/footer') %>
 </form>
 </body>
 </html>

@@ -4,9 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About me</title>
+    <title>Blog</title>
 </head>
 <body>
-    <h1>Bienvenido a mi Blog personal</h1>
+    <%- include('./partials/header') %>
+
+    <h1> This is my BLOG </h1>
+    <h3>Here I will share with you a little bit more about the fascinating path I travel in science and technology. </h3>
+
+    <section>
+        <% blogs.forEach(blog=> { %>
+            <div>
+                <img src="/images/<%= blog.img %>" alt="">
+            <div class="poster">
+                <a href="/about/blog/detail/<%= blog.id%>">
+                VER MÁS
+                </a>
+            </div>
+            </div>
+            <% }) %>
+    </section>
+
+    <%- include('./partials/footer') %>
 </body>
 </html>

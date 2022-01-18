@@ -7,6 +7,23 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <%- include('./partials/header') %>
+ 
     <h1>Bienvenido a mi Portafolio Digital!</h1>
+    
+    <section>
+        <% projects.forEach(project=> { %>
+            <div>
+                <img src="/images/<%= project.img %>" alt="">
+            <div class="poster">
+                <a href="/projects/detail/<%= project.id%>">
+                VER MÁS
+                </a>
+            </div>
+            </div>
+            <% }) %>
+    </section>
+
+    <%- include('./partials/footer') %>
 </body>
 </html>
