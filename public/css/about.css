@@ -40,14 +40,47 @@ img {
 section{
     padding-top: 36px;
     padding-bottom: 36px;
-    transition: 900ms ease-out;
+    transition: 900ms ease-out all;
+}
+section#ideals{
+    margin-bottom: 16px;
 }
 section#ideals:hover{
     z-index: 1;
     box-shadow: 0 1rem 2.4rem 0 rgb(0 0 0 / 16%);
-    margin-bottom: 16px;
 }
 section#hobbies:hover {
     z-index: 1;
     box-shadow: 0 1rem 2.4rem 0 rgb(0 0 0 / 16%);
+}
+img#banner {
+    border-radius: inherit;
+}
+section.part.press {
+    padding-top: 0;
+    position: relative;
+}
+.presentation {
+    display: block;
+    background: #1e0707a8;
+    padding: 24px;
+    color: #b3b3b3;
+    font-family: -webkit-pictograph;
+}
+
+@media(min-width: 768px){
+
+.presentation {
+    display: none;
+    position: absolute;
+    top: 0px;
+    background: #1e0707a8;
+    padding: 12px;
+    color: #b3b3b3;
+    font-family: -webkit-pictograph;
+    font-size: 13px;
+}
+section.part:hover .presentation{
+display: block;
+}
 }
