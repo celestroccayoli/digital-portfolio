@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+nav.nav {
+    background: grey;
+    padding: 12px;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.logo {
+    display: flex;
+    padding: 4px;
+}
+
+p.logo {
+    border-radius: 50px;
+    width: 50px;
+    background: hotpink;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 450ms all ease;
+    cursor: pointer;
+}
+p.logo:hover {
+    background: rgb(105, 6, 56);
+}
+a.nav{
+    color: whitesmoke;
+    text-decoration: none;
+}
+a.nav:hover{
+    color: hotpink;
+}

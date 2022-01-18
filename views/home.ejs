@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/styless.css">
+    <link rel="stylesheet" href="/css/footer.css">
     <title>Portfolio</title>
 </head>
 <body>
@@ -11,12 +14,12 @@
  
     <h1>Bienvenido a mi Portafolio Digital!</h1>
     
-    <section>
+    <section class="projects">
         <% projects.forEach(project=> { %>
-            <div>
+            <div class="project">
+                <a class="nav" href="/projects/detail/<%= project.id%>">
                 <img src="/images/<%= project.img %>" alt="">
             <div class="poster">
-                <a href="/projects/detail/<%= project.id%>">
                 VER MÁS
                 </a>
             </div>
