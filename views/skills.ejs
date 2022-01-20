@@ -6,17 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/about.css">
     <title>Skills</title>
 </head>
 <body>
-    <h1>Bienvenido a mis SKILLS!</h1>
+    <%- include('./partials/header') %>
+    <main>
+    <h1>Skills that characterize me</h1>
 
 
      <section>
          <div>
-            ACÁ IRÁ UN CEREBRO
+         <!-- Here you will have a 3D brain where the skills are distributed by hemispheres and are inetractive with the path of the pointer. -->
          </div>
      </section>
 
+     <h3>Hard skills </h3>
+     <section class="part" id="hobbies">
+         <div class="list">
+
+            <div class="boxe">
+                <img src="/images/coding.png" alt="">
+                <div class="link"><a href="">
+                   Programming
+                    </a></div>
+            </div>
+
+             <div class="boxe">
+                 <img src="/images/research.png" alt="">
+                 <div class="link"><a href="">
+                         Research
+                     </a></div>
+             </div>
+
+             <div class="boxe">
+                 <img src="/images/analytic.png" alt="">
+                 <div class="link"><a href="">
+                    Analysis
+                     </a></div>
+             </div>
+
+             <div class="boxe">
+                 <img src="/images/planning.png" alt="">
+                 <div class="link"><a href="">
+                    Planning
+                     </a></div>
+             </div>
+         </div>
+     </section>
+
+     <h3>Soft skills</h3>
+     <section class="part" id="ideals">
+         <div class="list">
+
+             <div class="boxe">
+                 <img src="/images/communication.png" alt="">
+                 <div class="link"><a href="">
+                    Communication
+                     </a></div>
+             </div>
+
+             <div class="boxe">
+                 <img src="/images/team.png" alt="">
+                 <div class="link"><a href="">
+                         Team
+                     </a></div>
+             </div>
+
+             <div class="boxe">
+                 <img src="/images/resilience.png" alt="">
+                 <div class="link"><a href="">
+                    Resilience
+                     </a></div>
+             </div>
+
+             <div class="boxe">
+                 <img src="/images/energy.png" alt="">
+
+                 <div class="link"><a href="">
+                    Energy
+                     </a></div>
+             </div>
+         </div>
+     </section>
+
+
+     <%- include('./partials/footer') %> 
+    </main>
 </body>
 </html>
